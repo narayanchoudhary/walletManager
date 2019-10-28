@@ -1,9 +1,9 @@
 {
   "expo": {
-    "name": "walletManager",
-    "slug": "wallet_manager",
+    "name": "simpleCashBook",
+    "slug": "simple_cash_book",
     "privacy": "public",
-    "sdkVersion": "34.0.0",
+    "sdkVersion": "35.0.0",
     "platforms": [
       "ios",
       "android",
@@ -27,7 +27,12 @@
       "supportsTablet": true
     },
     "android": {
-      "package": "com.gangaprasad.walletManager"
+      "permissions": [],
+      "versionCode": 2,
+      "package": "com.gangaprasad.walletManager",
+      "config" : {
+        "googleMobileAdsAppId": "ca-app-pub-5727666922815729~7062240799"
+      }
     },
     "description": ""
   }
